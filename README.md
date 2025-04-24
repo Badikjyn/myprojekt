@@ -1,1 +1,507 @@
-# myprojekt
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Спорт и психическое здоровье</title>
+	<style>
+	body {
+		font-family: 'Inter', sans-serif;
+		margin: 0;
+		padding: 0;
+		background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+		color: #ffffff;
+		text-align: center;
+		overflow-x: hidden;
+	}
+	
+	.container {
+		max-width: 1100px;
+		margin: 50px auto;
+		background: rgba(255, 255, 255, 0.1);
+		padding: 40px;
+		border-radius: 15px;
+		backdrop-filter: blur(10px);
+		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+	}
+	
+	h1,
+	h2,
+	h3 {
+		color: #ffcc00;
+		font-weight: 700;
+	}
+	
+	h1 {
+		font-size: 36px;
+		margin-bottom: 20px;
+	}
+	
+	h2 {
+		font-size: 28px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	
+	h3 {
+		font-size: 24px;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	
+	p {
+		font-size: 18px;
+		line-height: 1.8;
+		color: #e0e0e0;
+	}
+	
+	.nav-links {
+		display: flex;
+		justify-content: center;
+		gap: 15px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		flex-wrap: wrap;
+	}
+	
+	.nav-links a {
+		color: #ffcc00;
+		font-size: 16px;
+		text-decoration: none;
+		font-weight: 600;
+		padding: 10px 20px;
+		border-radius: 25px;
+		background-color: rgba(255, 204, 0, 0.1);
+		border: 2px solid #ffcc00;
+		transition: background-color 0.3s ease, transform 0.3s ease;
+	}
+	
+	.nav-links a:hover {
+		background-color: rgba(255, 204, 0, 0.2);
+		transform: translateY(-3px);
+	}
+	
+	.project-info {
+		background-color: rgba(0, 0, 0, 0.2);
+		padding: 20px;
+		margin-top: 30px;
+		border-radius: 10px;
+	}
+	
+	.project-info h3 {
+		color: #ffcc00;
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	
+	.project-info p {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	
+	ul {
+		list-style-type: none;
+		padding: 0;
+		text-align: left;
+		margin-top: 20px;
+	}
+	
+	ul li {
+		font-size: 18px;
+		line-height: 1.8;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		position: relative;
+	}
+	
+	ul li::before {
+		content: "•";
+		color: #ffcc00;
+		font-size: 24px;
+		position: absolute;
+		left: 0;
+		top: -2px;
+	}
+	
+	.banner img {
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		border-radius: 10px;
+		margin-bottom: 30px;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	}
+	
+	@media (max-width: 768px) {
+		h1 {
+			font-size: 28px;
+		}
+		h2 {
+			font-size: 24px;
+		}
+		h3 {
+			font-size: 20px;
+		}
+		p,
+		ul li {
+			font-size: 16px;
+		}
+		.nav-links a {
+			font-size: 14px;
+			padding: 8px 16px;
+		}
+		.container {
+			padding: 20px;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Спорт и психическое здоровье</h1>
+		<p>Как физическая активность помогает справляться с проблемами?</p>
+		<div class="project-info" id="project">
+			<h3>О проекте</h3>
+			<p><strong>Проект: "Спорт и психическое здоровье: как физическая активность помогает справляться с проблемами"</strong></p>
+			<p>Работа ученика 10Б класса: Хакимова Бадриддина Халимджоновича</p>
+			<p>Руководитель проекта: Антонов Егор Сергеевич</p>
+			<p>ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ГОРОДА МОСКВЫ "ШКОЛА №825 ИМЕНИ В.А. КАРАКОВСКОГО". Москва 2025.</p>
+		</div>
+		<div class="banner"> <img src="https://7fon.club/uploads/posts/2023-01/1673182667_46-7fon-club-p-sporta-dlya-prezentatsii-69.jpg" alt="Баннер"> </div>
+		<div class="nav-links"> <a href="#relevance">Актуальность</a> <a href="#biological">Биологический аспект</a> <a href="#psychological">Психологические преимущества</a> <a href="#social">Социальная роль</a> <a href="#conclusions">Опрос и Выводы</a> <a href="#activities">Активности</a> </div>
+		<h2 id="relevance"></h2>
+<section id="relevance" class="category">
+  <h2>Актуальность темы "Спорт и психическое здоровье"</h2>
+
+  <p>Психическое здоровье в последние годы стало одной из главных тем для обсуждения в обществе. Всё больше людей, особенно молодого возраста, сталкиваются с тревожными состояниями, депрессивными эпизодами и высоким уровнем стресса. Быстрый ритм жизни, постоянное информационное давление и снижение физической активности усугубляют эти проблемы.</p>
+  <p>На этом фоне спорт приобретает не только физическое, но и психологическое значение. Регулярные тренировки помогают организму вырабатывать нейромедиаторы, отвечающие за хорошее настроение и устойчивость к стрессу. Даже простые упражнения способны улучшить эмоциональное состояние, нормализовать сон и повысить уровень энергии.</p>
+  <p>Физическая активность особенно полезна подросткам и студентам: она помогает справляться с умственным напряжением, улучшает концентрацию, развивает уверенность в себе и даёт ощущение поддержки через взаимодействие в команде.</p>
+  <p><strong>Таким образом, исследование связи между спортом и психическим здоровьем является важным и актуальным. Эта тема отражает реальные потребности современного общества и может быть полезной для многих.</strong></p>
+</section>
+
+		<h2 id="psychological">Психологические преимущества</h2>
+		<p>Спорт помогает повышать самооценку, достигать целей и концентрироваться на текущем моменте. Он также снижает риск депрессии и улучшает когнитивные функции.</p>
+ <p>​Физическая активность оказывает значительное положительное влияние на психическое здоровье, что подтверждается рядом исследований и статистических данных. Ниже представлены ключевые результаты этих исследований:​
+</p>
+<li><strong>Влияние физической активности на депрессию и тревожность</strong></ul>
+<ul>
+<strong>Снижение риска депрессии:</strong> Систематический обзор и мета-анализ, опубликованные в JAMA Network Open, показали, что ходьба не менее 7 000 шагов в день снижает риск депрессии на 31%. Даже небольшое увеличение ежедневного количества шагов на 1 000 приводило к снижению симптомов депрессии на 9%.
+ <a href="​https://www.eatingwell.com/walking-steps-depression-risk-study-8763741?utm_source=chatgpt.com">Eatingwell</a>
+</ul>
+<ul>
+<strong>Уменьшение тревожности:</strong>Исследование, опубликованное в PubMed, установило, что регулярная физическая активность связана со снижением симптомов тревожности.
+ Участники, выполнявшие упражнения средней и высокой интенсивности, сообщали о значительном улучшении психического состояния.
+<a href="https://www.xn----8sbempclcwd3bmt.xn--p1ai/article/19976?utm_source=chatgpt.com">PubMed</a> 
+</ul>
+<ul>
+<strong>Физическая активность и молодёжь
+Положительное влияние на подростков:</strong> Когортное исследование, опубликованное в International Journal of Behavioral Nutrition and Physical Activity, показало, 
+что увеличение уровня физической активности у подростков связано с уменьшением эмоциональных проблем и улучшением общего психического благополучия.
+<a href="https://link.springer.com/article/10.1186/s12966-019-0901-7?utm_source=">​SpringerLink</a> 
+</ul>
+<ul>
+<p> Эти данные подчёркивают важность регулярной физической активности для поддержания и улучшения психического здоровья. Даже умеренные упражнения, 
+такие как ходьба, могут существенно снизить риск развития депрессии и тревожности, улучшить общее эмоциональное состояние и повысить качество жизни.
+<p/>
+</ul>
+
+<section id="biological" class="category">
+  <h2>Биологический аспект</h2>
+
+  <p>Физическая активность запускает целый ряд биологических процессов, которые напрямую связаны с улучшением психического состояния.</p>
+  <p>Во время тренировок в организме активизируется выработка нейромедиаторов — <strong>эндорфинов, дофамина и серотонина</strong>. Эти вещества отвечают за ощущение радости, мотивации и внутреннего спокойствия. Их уровень повышается даже после 20–30 минут умеренной нагрузки.</p>
+  <p>Также спорт снижает уровень <strong>кортизола</strong> — основного гормона стресса. При регулярных занятиях наблюдается нормализация работы <strong>вегетативной нервной системы</strong>, улучшается сон, укрепляется иммунитет и повышается устойчивость к тревожным состояниям.</p>
+  <p>Дополнительно улучшается <strong>кровообращение головного мозга</strong>, что способствует улучшению памяти, внимания и способности к обучению. Это особенно важно в подростковом возрасте, когда нервная система активно развивается.</p>
+  <p><strong>Таким образом, биологический механизм воздействия физической активности доказывает: спорт — это не просто движение, а важный способ естественной поддержки психического здоровья.</strong></p>
+</section>
+
+</ul>
+	<section id="social-role" class="category">
+    <h2>Социальная роль спорта</h2>
+    <p>Физическая активность важна не только для тела и разума, но и для общения. Групповые тренировки и командные виды спорта играют огромную роль в формировании здоровых социальных связей. Участие в таких формах активности способствует:</p>
+    <ul>
+        <li><strong>Развитию коммуникативных навыков</strong> — взаимодействие с партнёрами по команде делает людей более открытыми и учит сотрудничеству.</li>
+        <li><strong>Укреплению чувства принадлежности</strong> — человек ощущает себя частью коллектива, что важно для самооценки и уверенности.</li>
+        <li><strong>Формированию ответственности</strong> — командная работа требует дисциплины и надёжности.</li>
+        <li><strong>Уменьшению социальной изоляции</strong> — спорт помогает завести друзей и преодолеть чувство одиночества.</li>
+    </ul>
+    <p>По данным <em>Американской ассоциации психологии</em> (APA), участие в командных видах спорта у подростков снижает риск депрессии на 23%. Согласно <em>Journal of Youth and Adolescence</em>, молодёжь, занимающаяся спортом в группе, демонстрирует более высокий уровень удовлетворённости жизнью и эмоциональной устойчивости.</p>
+</section>
+	
+		<h2 id="conclusions">Выводы исследования</h2>
+		<!DOCTYPE html>
+		<html lang="ru">
+
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Опрос на тему: Спорт и психическое здоровье</title>
+			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+			<style>
+			body {
+				font-family: 'Inter', sans-serif;
+				background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+				color: #ffffff;
+				text-align: center;
+			}
+			
+			.container {
+				max-width: 1100px;
+				margin: 50px auto;
+				background: rgba(255, 255, 255, 0.1);
+				padding: 40px;
+				border-radius: 15px;
+			}
+			
+			h1,
+			h2,
+			h3 {
+				color: #ffcc00;
+			}
+			
+			canvas {
+				max-width: 600px;
+				margin: 20px auto;
+			}
+			</style>
+		</head>
+
+		<body>
+			<div class="container">
+				<!DOCTYPE html>
+				<html lang="ru">
+
+				<head>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Опрос: Спорт и психическое здоровье</title>
+					<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+					<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+					<style>
+					@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+					body {
+						font-family: 'Roboto', sans-serif;
+						background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+						color: #ffffff;
+						text-align: center;
+					}
+					
+					.container {
+						max-width: 1100px;
+						margin: 50px auto;
+						background: rgba(255, 255, 255, 0.1);
+						padding: 40px;
+						border-radius: 15px;
+					}
+					
+					h1,
+					h2,
+					h3 {
+						color: #ffcc00;
+					}
+					
+					canvas {
+						max-width: 600px;
+						margin: 20px auto;
+						display: block;
+					}
+					/* Медиа-запрос для мобильных устройств */
+					
+					@media (max-width: 768px) {
+						canvas {
+							transform: scale(0.8);
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							margin: auto;
+						}
+					}
+					</style>
+				</head>
+
+				<body>
+					<div class="container">
+						<h1>Спорт и психическое здоровье</h1>
+						<h2>Результаты опроса</h2>
+						<h3>Распределение по полу</h3>
+						<canvas id="genderChart"></canvas>
+						<h3>Возрастные группы</h3>
+						<canvas id="ageChart"></canvas>
+						<h3>Частота занятий спортом</h3>
+						<canvas id="activityChart"></canvas>
+						<h3>Основные мотиваторы</h3>
+						<canvas id="motivationChart"></canvas>
+						<h3>Основные препятствия</h3>
+						<canvas id="barriersChart"></canvas>
+					</div>
+					<script>
+					Chart.register(ChartDataLabels);
+
+					function createChart(ctx, type, labels, data, backgroundColor) {
+						new Chart(ctx, {
+							type: type,
+							data: {
+								labels: labels,
+								datasets: [{
+									data: data,
+									backgroundColor: backgroundColor
+								}]
+							},
+							options: {
+								plugins: {
+									legend: {
+										labels: {
+											color: '#ffffff',
+											font: {
+												size: 14,
+												weight: 'bold'
+											}
+										}
+									},
+									datalabels: {
+										color: '#ffffff',
+										font: {
+											weight: 'bold',
+											size: 14
+										},
+										anchor: 'end',
+										align: 'start',
+										formatter: (value, ctx) => {
+											let dataset = ctx.chart.data.datasets[0];
+											let total = dataset.data.reduce((acc, val) => acc + val, 0);
+											let percentage = ((value / total) * 100).toFixed(1) + '%';
+											return percentage;
+										}
+									}
+								}
+							}
+						});
+					}
+					createChart(document.getElementById('genderChart').getContext('2d'), 'pie', ['Мужчины', 'Женщины'], [60, 40], ['#ffcc00', '#ff5733']);
+					createChart(document.getElementById('ageChart').getContext('2d'), 'bar', ['До 18 лет', '18-25 лет', '26-35 лет', 'Старше 36 лет'], [25, 35, 25, 15], ['#ffcc00', '#ff5733', '#33ff57', '#3357ff']);
+					createChart(document.getElementById('activityChart').getContext('2d'), 'pie', ['Регулярно', 'Иногда', 'Редко', 'Никогда'], [50, 30, 15, 5], ['#ffcc00', '#ff5733', '#33ff57', '#3357ff']);
+					createChart(document.getElementById('motivationChart').getContext('2d'), 'bar', ['Физическая форма', 'Здоровье', 'Эмоциональная разрядка', 'Общение'], [51.4, 20, 14.3, 5.7], ['#ffcc00', '#ff5733', '#33ff57', '#3357ff']);
+					createChart(document.getElementById('barriersChart').getContext('2d'), 'bar', ['Нехватка времени', 'Мотивация', 'Условия'], [40, 35, 25], ['#ffcc00', '#ff5733', '#33ff57']);
+					</script>
+				</body>
+
+				</html>
+				</script>
+		</body>
+
+		</html>
+		<canvas id="barriersChart"></canvas>
+		</div>
+		<script>
+		const ctx1 = document.getElementById('activityChart').getContext('2d');
+		new Chart(ctx1, {
+			type: 'pie',
+			data: {
+				labels: ['Регулярно', 'Иногда', 'Редко', 'Никогда'],
+				datasets: [{
+					data: [50, 30, 15, 5], // Данные на основе опроса
+					backgroundColor: ['#ffcc00', '#ff5733', '#33ff57', '#3357ff']
+				}]
+			}
+		});
+		const ctx2 = document.getElementById('motivationChart').getContext('2d');
+		new Chart(ctx2, {
+			type: 'bar',
+			data: {
+				labels: ['Улучшение физической формы', 'Поддержание здоровья', 'Эмоциональная разрядка', 'Общение'],
+				datasets: [{
+					data: [51.4, 20, 14.3 5.7], // Данные на основе опроса
+					backgroundColor: ['#ffcc00', '#ff5733', '#33ff57', '#3357ff']
+				}]
+			}
+		});
+		const ctx3 = document.getElementById('barriersChart').getContext('2d');
+		new Chart(ctx3, {
+			type: 'bar',
+			data: {
+				labels: ['Нехватка времени', 'Недостаток мотивации', 'Отсутствие условий'],
+				datasets: [{
+					data: [40, 35, 25], // Данные на основе опроса
+					backgroundColor: ['#ffcc00', '#ff5733', '#33ff57']
+				}]
+			}
+		});
+		</script>
+</body>
+
+</html>
+<p>Анализ собранных данных показал, что:
+<ul>
+<li><strong>80%</strong>-опрошенных чувствуют себя лучше после физических нагрузок.</li>
+<li><strong>65%</strong>- отмечают снижение уровня стресса после тренировок.</li>
+<li><strong>40%</strong>- считают спорт эффективным способом борьбы с тревожностью и депрессией. 
+</ul>
+<li>Эти результаты подтверждают мнение учёных о положительном влиянии спорта на психическое здоровье.</p>
+<p>Основные мотиваторы занятий спортом среди респондентов:
+	<ul>
+		<li><strong>56.2%</strong> – улучшение физической формы;</li>
+		<li><strong>21.2%</strong> – поддержание здоровья;</li>
+		<li><strong>15.6%</strong> – эмоциональная разрядка;</li>
+		<li><strong>6.2%</strong> - общение. </li>
+	</ul>
+</p>
+<p>Основные преграды для регулярных тренировок:
+	<ul>
+		<li><strong>40%</strong> – нехватка времени;</li>
+		<li><strong>35%</strong> – недостаток мотивации;</li>
+		<li><strong>25%</strong> – отсутствие условий для занятий.</li>
+	</ul>
+</p>
+<section id="activities" class="category">
+  <h2>Спортивные активности и разминки для снятия стресса</h2>
+
+  <h3>Кардио нагрузки</h3>
+  <ul>
+    <li><strong>Бег спринтом</strong> — улучшает выработку эндорфинов, помогает "перезапустить" мысли.</li>
+    <li><strong>Быстрая ходьба</strong> — особенно полезна на свежем воздухе.</li>
+    <li><strong>Велоспорт / велотренажёр</strong> — помогает избавиться от мышечного напряжения.</li>
+    <li><strong>Плавание</strong> — сочетает физическую нагрузку и расслабляющий эффект воды.</li>
+  </ul>
+
+  <h3>Растяжка и йога</h3>
+  <ul>
+    <li><strong>Йога (хатха, виньяса)</strong> — улучшает дыхание, снимает тревожность.</li>
+    <li><strong>Растяжка на полу</strong> — помогает расслабиться после рабочего дня.</li>
+    <li><strong>Сурья Намаскар</strong> — комплекс для приведения тела и разума в тонус.</li>
+  </ul>
+
+  <h3>Боевые искусства и единоборства</h3>
+  <ul>
+    <li><strong>ММА, бокс, муай-тай</strong> — отличный способ выплеснуть эмоции и снять напряжение.</li>
+    <li><strong>Вольная борьба</strong> — развивает выносливость, уверенность и помогает сбрасывать стресс через интенсивную физическую активность.</li>
+    <li><strong>Бразильское джиу-джитсу (БЖЖ)</strong> — сочетает тактику, концентрацию и работу с телом; помогает сфокусироваться и забыть о тревогах.</li>
+    <li><strong>Каратэ, тхэквондо</strong> — формируют самоконтроль и уверенность в себе.</li>
+  </ul>
+
+  <h3>Групповые активности</h3>
+  <ul>
+    <li><strong>Футбол, баскетбол, волейбол</strong> — улучшают настроение и дарят чувство команды.</li>
+    <li><strong>Танцы</strong> — позволяют выразить эмоции и избавиться от стресса через движение и музыку.</li>
+  </ul>
+
+  <h3>Домашние и простые активности</h3>
+  <ul>
+    <li><strong>Скакалка (3–5 мин)</strong> — быстрая "перезагрузка" для ума и тела.</li>
+    <li><strong>Планка, упражнения на корпус</strong> — снимают зажимы и повышают общий тонус.</li>
+    <li><strong>Онлайн-тренировки</strong> — удобно и доступно для выполнения дома.</li>
+  </ul>
+
+  <h3>Бонус: дыхательная разминка</h3>
+  <p><strong>4-4-4-4</strong> дыхание: вдох (4 сек) → задержка (4 сек) → выдох (4 сек) → пауза (4 сек). Повторить 4–6 раз — снижает уровень стресса и подготавливает к нагрузке.</p>
+</section>
+
+<h2 id="social">Заключение</h2>
+<ul>
+<p>Спорт — это доступный и эффективный способ поддержания психического здоровья. Даже простая прогулка на свежем воздухе может снизить уровень стресса, а регулярные тренировки помогают справляться с тревожностью и депрессией. Поэтому физическая активность должна стать важной частью жизни каждого человека.</p>
+</ul>
+</div>
+</body>
+
+</html>
